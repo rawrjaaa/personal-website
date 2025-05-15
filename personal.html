@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="icon" href="img/logo_r.png">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        nav {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 200px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            font-family: monospace;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: #9e18eb;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            transition: ease-in-out 0.3s;
+        }
+
+        #home {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+            font-family: monospace;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: fit-content;
+            margin: 20px auto;
+        }
+
+        #home img {
+            width: 150px;
+            height: 150px;
+            transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+        }
+
+        #home img:hover {
+            width: 160px;
+            height: 160px;
+        }
+
+        #home p {
+            font-size: 13px;
+            color: #464646;
+        }
+        
+        #home #social-media a{
+            gap: 10px;
+            justify-content: center;
+        }
+
+        #home #social-media img {
+            width: 30px;
+            height: 30px;
+        }
+
+        #home #social-media img:hover {
+            width: 35px;
+            height: 35px;
+            transition: ease-in-out 0.3s;
+        }
+
+        #about-me {
+            background-color: #ffe229;
+            color: #8d530b;
+            padding: 20px;
+            text-align: center;
+            font-family: monospace;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: fit-content;
+            margin: 20px auto;
+        }
+
+        #about-me p {
+            font-size: 13px;
+            width: 350px;
+        }
+
+        #portfolio {
+            width: 350px;
+            height: auto;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #portfolio h2 {
+            text-align: center;
+            font-family: monospace;
+            color: #ffffff;
+            background-color: blueviolet;
+            padding: 20px;
+            border-radius: 50px;
+            width: fit-content;
+            margin: 1 auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background-color: #000000;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            font-family: monospace;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: fit-content;
+            margin: 20px auto;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="img/logo_r.png" alt="logo" style="width: 50px; height: auto;">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <body>
+        <div id="home">
+            <img src="img/profile-photo.png" alt="profile-photo">
+            <h1>Aditya Rajadana Hernadi</h1>
+            <p>UI/UX Designer - Web Developer - 2D Illustrator</p>
+            <div id="social-media">
+                <a href="https://instagram.com" target="_blank"><img src="svg/instagram-icon.svg" alt="instagram-icon"></a>
+                <a href="https://linkedin.com" target="_blank"><img src="svg/linkedin-icon.svg" alt="linkedin-icon"></a>
+                <a href="https://github.com" target="_blank"><img src="svg/github-icon.svg" alt="github-icon"></a>
+            </div>
+        </div>
+
+        <div id="about-me">
+            <h2>About Me</h2>
+            <p>Hi, I'm Aditya Rajadana Hernadi, a passionate UI/UX designer and web developer with a love for creating beautiful and functional digital experiences. I also enjoy 2D illustration.</p>
+        </div>
+
+        <div id="portfolio">
+            <h2>My Portfolio</h2>
+            <video width="350" height="auto" autoplay style="border-radius: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+                <source  src="video/CREATIVE PORTOFOLIO 2024 _ Aditya Rajadana Hernadi.mp4">
+            </video>
+        </div>
+    </body>
+
+    <footer>
+        <p>&copy; 2025 Aditya Rajadana Hernadi. All rights reserved.</p>
+    </footer>
+</body>
+</html>
